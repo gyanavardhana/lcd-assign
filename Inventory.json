@@ -1,0 +1,48 @@
+{
+    "products": [
+        {
+            "id": "P1",
+            "name": "Milk",
+            "price": 45,
+            "expirydate": "2024-06-30",
+            "quantity": 50,
+            "category": "Dairy",
+            "supplier": "Farmer"
+        },
+        {
+            "id": "P2",
+            "name": "Bread",
+            "price": 60,
+            "expirydate": "2024-05-15",
+            "quantity": 30,
+            "category": "Bakery",
+            "supplier": "Baker"
+        }
+    ],
+    "suppliers": [
+        {
+            "name": "Farmer",
+            "contact": "None",
+            "products": [
+                "P1"
+            ]
+        },
+        {
+            "name": "Baker",
+            "contact": "None",
+            "products": [
+                "P2"
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "name": "Dairy",
+            "subcategories": []
+        },
+        {
+            "name": "Bakery",
+            "subcategories": []
+        }
+    ]
+}
